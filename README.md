@@ -26,7 +26,7 @@ if($apc->is_available()){
 	//to check if data is present in apc
 	$if_exists = $apc->exists('USER_123');
 
-	//to clear APC 
+	//to clear APC by key 
 	$apc->clear('USER_123');
 
 	//to clear entire APC cache;
