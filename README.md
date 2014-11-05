@@ -35,3 +35,7 @@ if($apc->is_available()){
 ?>
 ```
 
+
+## APC status
+
+![http://www.dropbox.com/s/sahkcmkdqvzaep4/apc_status.png?dl=0](http://www.dropbox.com/s/sahkcmkdqvzaep4/apc_status.png?dl=0 "APC STATUS")
