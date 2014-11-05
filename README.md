@@ -11,7 +11,7 @@ require_once 'apc.class.php';
 $apc = new Apc();
 
 //check if APC module is available
-if($apc->is_available){
+if($apc->is_available()){
 	// to store data in apc
 	$apc->store('USER_123', array(
 		'name'=>'Rajesh', 
