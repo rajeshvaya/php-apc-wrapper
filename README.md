@@ -29,7 +29,7 @@ if($apc->is_available()){
 	//to clear APC 
 	$apc->clear('USER_123');
 
-	to clear entire APC cache;
+	//to clear entire APC cache;
 	$apc->clear();
 }
 ?>
