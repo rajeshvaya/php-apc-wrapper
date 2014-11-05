@@ -38,4 +38,6 @@ if($apc->is_available()){
 
 ## APC status
 
-![http://www.dropbox.com/s/sahkcmkdqvzaep4/apc_status.png?dl=0](http://www.dropbox.com/s/sahkcmkdqvzaep4/apc_status.png?dl=0 "APC STATUS")
+Open apc.status.php in the browser
+
+![https://raw.githubusercontent.com/rajeshvaya/php-apc-wrapper/master/apc.status.png](https://raw.githubusercontent.com/rajeshvaya/php-apc-wrapper/master/apc.status.png "APC STATUS")
