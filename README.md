@@ -18,7 +18,9 @@ if($apc->is_available()){
 		'email'=>'rajesh@example.com', 
 		'created' => '1987-06-08 13:20:00'
 	));
-	$apc->store('USER_XXX', 'INACTIVE');
+	
+	//to store data in apc with auto expiry (in seconds)
+	$apc->store('USER_XXX', 'INACTIVE', 300);
 
 	//to fetch data from apc
 	$data = $apc->get('USER_123');
